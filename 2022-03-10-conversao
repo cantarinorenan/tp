@@ -4,10 +4,9 @@ programa {
 		mvelocidade=0.0 
 		mconversaokmmi=0.0
 		mconversaomikm=0.0
-		escreva ("Digite a velocidade do veiculo ")
+		escreva ("Digite a velocidade do veiculo em km por hora ")
 		leia (mvelocidade)
 		mconversaomikm = mvelocidade*1.6
-		escreva ("A velocidade do veiculo é: ", mconversaomikm)
-		
+		escreva ("A velocidade do veiculo é: ", mconversaomikm)	
     }
 }
