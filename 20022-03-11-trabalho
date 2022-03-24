@@ -1,1 +1,44 @@
+programa {
+funcao inicio() {
+inteiro portugues, matematica, historia, geografia , ciencias, indice
+cadeia aluno [2]
 
+portugues=0
+matematica=0
+historia=0
+geografia=0
+ciencias=0
+indice=0
+
+
+para (indice=1; indice <=2; indice++)
+{
+   escreva("Digite o nome do aluno: ")
+   leia(aluno[indice])
+   escreva("Digite a nota do aluno em portugues: ")
+   leia(portugues)
+   escreva("Digite a nota do aluno em matematica: ")
+   leia(matematica)
+   escreva("Digite a nota do aluno em historia: ")
+   leia(historia)
+   escreva("Digite a nota do aluno em geografia: ")
+   leia(geografia)
+   escreva("Digite a nota do aluno em ciencias: ")
+   leia(ciencias)
+}
+
+para (indice=1; indice <=2; indice++)
+{
+escreva ("\nO aluno: ",aluno )
+se (portugues >=60)
+escreva ("\nFoi APROVADO em portugues")
+senao
+escreva ("\nFoi REPROVADO em portugues")
+
+se (historia >=60)
+escreva ("\nFoi APROVADO em história")
+senao
+escreva ("\nFoi REPROVADO em história")
+}
+}
+}
