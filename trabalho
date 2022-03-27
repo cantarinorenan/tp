@@ -1,0 +1,65 @@
+programa {
+funcao inicio() {
+cadeia mnome[3][3]
+real mmatematica[3][3], mhistoria[3][3], mportugues[3][3], mciencias[3][3], mgeografia[3][3]
+inteiro mturma, mindice
+
+
+para (mturma=0;mturma<=2;mturma++)
+{
+    para (mindice=0;mindice<=2;mindice++)
+{
+escreva ("Digite o nome: ")
+leia (mnome[mturma][mindice])
+escreva ("Digite a nota de matemática: ")
+leia (mmatematica[mturma][mindice])
+escreva ("Digite a nota de história: ")
+leia (mhistoria[mturma][mindice])
+escreva ("Digite a nota de português: ")
+leia (mportugues[mturma][mindice])
+escreva ("Digite a nota de ciências: ")
+leia (mciencias[mturma][mindice])
+escreva ("Digite a nota de geografia: ")
+leia (mgeografia[mturma][mindice])
+}
+
+para (mturma=0;mturma<=2;mturma++)
+{
+para (mindice=0;mindice<=2;mindice++)
+
+{
+escreva ("\nO aluno: ", mnome[mturma][mindice])
+se (mmatematica[mturma][mindice]>=60)
+escreva ("\nFoi APROVADO em matemática")
+senao
+escreva ("\nFoi REPROVADO em matemática")
+
+se (mhistoria[mturma][mindice]>=60)
+escreva ("\nFoi APROVADO em história")
+senao
+escreva ("\nFoi REPROVADO em história")
+
+se (mportugues[mturma][mindice]>=60)
+escreva ("\nFoi APROVADO em português")
+senao
+escreva ("\nFoi REPROVADO em português")
+
+se (mciencias[mturma][mindice]>=60)
+escreva ("\nFoi APROVADO em ciências")
+senao
+escreva ("\nFoi REPROVADO em ciências")
+
+se (mgeografia[mturma][mindice]>=60)
+escreva ("\nFoi APROVADO em geografia")
+senao
+escreva ("\nFoi REPROVADO em geografia")
+    
+}
+
+}
+
+}
+
+}
+
+}
