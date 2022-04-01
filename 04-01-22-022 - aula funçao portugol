@@ -1,0 +1,22 @@
+//Codigo em Portugol par estudo de funçoes:
+programa {
+	funcao inicio() {
+		inteiro mresultado, mnumero1, mnumero2
+		
+		escreva ("Digite o primeiro número: ")
+		leia (mnumero1)
+		escreva ("Digite o segundo número: ")
+		leia (mnumero2)
+		
+		mresultado = somar (mnumero1, mnumero2)
+	    escreva ("\nA soma dos números é: ",mresultado)
+	}
+	funcao inteiro somar (inteiro a , inteiro b)
+	
+	{
+	    inteiro msoma
+	
+	msoma= a+b
+	retorne msoma
+}
+}
