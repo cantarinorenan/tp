@@ -1,0 +1,19 @@
+programa {
+    inteiro mnumero, mindice, mresultado=1
+    //mresultado é definido para que faça a contagem começando do 1
+
+    funcao inicio() 
+    {
+        escreva ("Insira um número a ser fatorado: ")
+        leia (mnumero)
+
+        para (mindice = 1; mindice <= mnumero; mindice++)
+        // "mindice <= mnumero" faz uma contagem até o número digitado
+        {
+            mresultado = mresultado * mindice
+            //"mresultado * mindice" sequencia o codigo fatorado
+        }
+
+        escreva ("O fatorial de ", mnumero, " é: ", mresultado)
+    }
+}
